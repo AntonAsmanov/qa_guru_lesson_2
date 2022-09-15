@@ -28,8 +28,6 @@ public class TextBoxTests {
         String nameInput = "[id=userName]";
 
 
-
-
         open("/text-box");
         $(nameInput).setValue(name);
         $("[id=userEmail]").setValue(email);
