@@ -27,13 +27,13 @@ public class JUniteDemoTest {
 
 
     @Test
-    void simpeTestFirst(){
+    void simpleTestFirst(){
         System.out.println("###         @Test simpeTestFirst");
         Assertions.assertTrue(3>2);
     }
 
     @Test
-    void simpeTestSecond(){
+    void simpleTestSecond(){
         System.out.println("###         @Test simpeTestSecond");
         Assertions.assertTrue(3>2);
     }
